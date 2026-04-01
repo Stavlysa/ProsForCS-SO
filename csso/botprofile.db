@@ -1,0 +1,1683 @@
+
+Default
+	Skill = 90
+	Aggression = 1
+	ReactionTime = 0.15
+	AttackDelay = 0
+	Teamwork = 25
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.05
+	WeaponPreference = none
+	Difficulty = EXPERT
+	LookAngleMaxAccelNormal = 7000.0
+	LookAngleStiffnessNormal = 500.0
+	LookAngleDampingNormal = 24.5
+	LookAngleMaxAccelAttacking = 3000.0
+	LookAngleStiffnessAttacking = 150.0
+	LookAngleDampingAttacking = 14.0
+End
+
+//===========================================
+// AI BEHAVIOR TEMPLATES
+//===========================================
+
+Template s1mpleAI
+	Skill = 100
+	Teamwork = 22
+	Aggression = 1
+	ReactionTime = 0.13jhb 
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.004
+	AimFocusDecay = 0.004
+	AimFocusOffsetScale = 0.004
+	AimfocusInterval = 0.004
+	LookAngleMaxAccelNormal = 16000.0
+	LookAngleStiffnessNormal = 1400.0
+	LookAngleDampingNormal = 66.5
+	LookAngleMaxAccelAttacking = 18000.0
+	LookAngleStiffnessAttacking = 1600.0
+	LookAngleDampingAttacking = 71.4
+End
+
+Template ZywOoAI
+	Skill = 99
+	Teamwork = 30
+	Aggression = 1
+	ReactionTime = 0.14
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.003
+	AimFocusDecay = 0.003
+	AimFocusOffsetScale = 0.003
+	AimfocusInterval = 0.003
+	LookAngleMaxAccelNormal = 14000.0
+	LookAngleStiffnessNormal = 1250.0
+	LookAngleDampingNormal = 63.0
+	LookAngleMaxAccelAttacking = 15500.0
+	LookAngleStiffnessAttacking = 1400.0
+	LookAngleDampingAttacking = 67.2
+End
+
+Template NiKoAI
+	Skill = 93
+	Teamwork = 24
+	Aggression = 1
+	ReactionTime = 0.14
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.08
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.15
+	AimfocusInterval = 0.005
+	LookAngleMaxAccelNormal = 17500.0
+	LookAngleStiffnessNormal = 960.0
+	LookAngleDampingNormal = 31.1
+	LookAngleMaxAccelAttacking = 21000.0
+	LookAngleStiffnessAttacking = 1130.0
+	LookAngleDampingAttacking = 33.7
+End
+
+Template donkAI
+	Skill = 99
+	Teamwork = 20
+	Aggression = 1
+	ReactionTime = 0.08
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.08
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.15
+	AimfocusInterval = 0.003
+	LookAngleMaxAccelNormal = 19000.0
+	LookAngleStiffnessNormal = 1060.0
+	LookAngleDampingNormal = 32.6
+	LookAngleMaxAccelAttacking = 23000.0
+	LookAngleStiffnessAttacking = 1250.0
+	LookAngleDampingAttacking = 35.4
+End
+
+Template deviceAI
+	Skill = 92
+	Teamwork = 31
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.005
+	AimFocusDecay = 0.005
+	AimFocusOffsetScale = 0.005
+	AimfocusInterval = 0.005
+	LookAngleMaxAccelNormal = 12000.0
+	LookAngleStiffnessNormal = 1050.0
+	LookAngleDampingNormal = 58.1
+	LookAngleMaxAccelAttacking = 13500.0
+	LookAngleStiffnessAttacking = 1200.0
+	LookAngleDampingAttacking = 61.6
+End
+
+Template m0NESYAI
+	Skill = 96
+	Teamwork = 24
+	Aggression = 1
+	ReactionTime = 0.11
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.004
+	AimFocusDecay = 0.004
+	AimFocusOffsetScale = 0.004
+	AimfocusInterval = 0.004
+	LookAngleMaxAccelNormal = 14500.0
+	LookAngleStiffnessNormal = 1200.0
+	LookAngleDampingNormal = 61.6
+	LookAngleMaxAccelAttacking = 16000.0
+	LookAngleStiffnessAttacking = 1350.0
+	LookAngleDampingAttacking = 65.8
+End
+
+Template sh1roAI
+	Skill = 94
+	Teamwork = 31
+	Aggression = 1
+	ReactionTime = 0.15
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.005
+	AimFocusDecay = 0.005
+	AimFocusOffsetScale = 0.005
+	AimfocusInterval = 0.005
+	LookAngleMaxAccelNormal = 12500.0
+	LookAngleStiffnessNormal = 1100.0
+	LookAngleDampingNormal = 59.5
+	LookAngleMaxAccelAttacking = 14000.0
+	LookAngleStiffnessAttacking = 1250.0
+	LookAngleDampingAttacking = 63.0
+End
+
+Template ropzAI
+	Skill = 91
+	Teamwork = 25
+	Aggression = 1
+	ReactionTime = 0.15
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.005
+	LookAngleMaxAccelNormal = 13500.0
+	LookAngleStiffnessNormal = 840.0
+	LookAngleDampingNormal = 29.8
+	LookAngleMaxAccelAttacking = 15500.0
+	LookAngleStiffnessAttacking = 920.0
+	LookAngleDampingAttacking = 31.2
+End
+
+Template brokyAI
+	Skill = 88
+	Teamwork = 29
+	Aggression = 1
+	ReactionTime = 0.15
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.006
+	AimFocusDecay = 0.006
+	AimFocusOffsetScale = 0.006
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 11000.0
+	LookAngleStiffnessNormal = 950.0
+	LookAngleDampingNormal = 55.3
+	LookAngleMaxAccelAttacking = 12500.0
+	LookAngleStiffnessAttacking = 1100.0
+	LookAngleDampingAttacking = 58.8
+End
+
+Template YEKINDARAI
+	Skill = 88
+	Teamwork = 19
+	Aggression = 1
+	ReactionTime = 0.18
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.08
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.15
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 16000.0
+	LookAngleStiffnessNormal = 870.0
+	LookAngleDampingNormal = 29.6
+	LookAngleMaxAccelAttacking = 19000.0
+	LookAngleStiffnessAttacking = 1030.0
+	LookAngleDampingAttacking = 32.1
+End
+
+Template TwistzzAI
+	Skill = 89
+	Teamwork = 28
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 810.0
+	LookAngleDampingNormal = 29.3
+	LookAngleMaxAccelAttacking = 15000.0
+	LookAngleStiffnessAttacking = 890.0
+	LookAngleDampingAttacking = 30.7
+End
+
+Template rainAI
+	Skill = 90
+	Teamwork = 26
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 820.0
+	LookAngleDampingNormal = 29.5
+	LookAngleMaxAccelAttacking = 15500.0
+	LookAngleStiffnessAttacking = 910.0
+	LookAngleDampingAttacking = 30.9
+End
+
+Template b1tAI
+	Skill = 89
+	Teamwork = 28
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 810.0
+	LookAngleDampingNormal = 29.3
+	LookAngleMaxAccelAttacking = 15000.0
+	LookAngleStiffnessAttacking = 890.0
+	LookAngleDampingAttacking = 30.7
+End
+
+Template jLAI
+	Skill = 90
+	Teamwork = 31
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.006
+	AimFocusDecay = 0.006
+	AimFocusOffsetScale = 0.006
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 9000.0
+	LookAngleStiffnessNormal = 640.0
+	LookAngleDampingNormal = 27.6
+	LookAngleMaxAccelAttacking = 9500.0
+	LookAngleStiffnessAttacking = 680.0
+	LookAngleDampingAttacking = 28.4
+End
+
+Template frozenAI
+	Skill = 92
+	Teamwork = 26
+	Aggression = 1
+	ReactionTime = 0.14
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.005
+	LookAngleMaxAccelNormal = 13500.0
+	LookAngleStiffnessNormal = 860.0
+	LookAngleDampingNormal = 30.2
+	LookAngleMaxAccelAttacking = 16000.0
+	LookAngleStiffnessAttacking = 940.0
+	LookAngleDampingAttacking = 31.4
+End
+
+Template torzsiAI
+	Skill = 89
+	Teamwork = 29
+	Aggression = 1
+	ReactionTime = 0.14
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.006
+	AimFocusDecay = 0.006
+	AimFocusOffsetScale = 0.006
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 11500.0
+	LookAngleStiffnessNormal = 1000.0
+	LookAngleDampingNormal = 56.7
+	LookAngleMaxAccelAttacking = 13000.0
+	LookAngleStiffnessAttacking = 1150.0
+	LookAngleDampingAttacking = 60.2
+End
+
+Template SpinxAI
+	Skill = 89
+	Teamwork = 28
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 810.0
+	LookAngleDampingNormal = 29.3
+	LookAngleMaxAccelAttacking = 15000.0
+	LookAngleStiffnessAttacking = 890.0
+	LookAngleDampingAttacking = 30.7
+End
+
+Template w0nderfulAI
+	Skill = 90
+	Teamwork = 26
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 820.0
+	LookAngleDampingNormal = 29.5
+	LookAngleMaxAccelAttacking = 15500.0
+	LookAngleStiffnessAttacking = 910.0
+	LookAngleDampingAttacking = 30.9
+End
+
+Template zont1xAI
+	Skill = 89
+	Teamwork = 28
+	Aggression = 1
+	ReactionTime = 0.18
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 810.0
+	LookAngleDampingNormal = 29.3
+	LookAngleMaxAccelAttacking = 15000.0
+	LookAngleStiffnessAttacking = 890.0
+	LookAngleDampingAttacking = 30.7
+End
+
+Template karriganAI
+	Skill = 85
+	Teamwork = 36
+	Aggression = 1
+	ReactionTime = 0.21
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.007
+	AimFocusDecay = 0.007
+	AimFocusOffsetScale = 0.007
+	AimfocusInterval = 0.007
+	LookAngleMaxAccelNormal = 8000.0
+	LookAngleStiffnessNormal = 580.0
+	LookAngleDampingNormal = 26.4
+	LookAngleMaxAccelAttacking = 8500.0
+	LookAngleStiffnessAttacking = 620.0
+	LookAngleDampingAttacking = 27.2
+End
+
+Template flameZAI
+	Skill = 94
+	Teamwork = 25
+	Aggression = 1
+	ReactionTime = 0.14
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.08
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.15
+	AimfocusInterval = 0.005
+	LookAngleMaxAccelNormal = 17500.0
+	LookAngleStiffnessNormal = 970.0
+	LookAngleDampingNormal = 31.2
+	LookAngleMaxAccelAttacking = 21000.0
+	LookAngleStiffnessAttacking = 1150.0
+	LookAngleDampingAttacking = 34.0
+End
+
+Template xertioNAI
+	Skill = 89
+	Teamwork = 29
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 810.0
+	LookAngleDampingNormal = 29.3
+	LookAngleMaxAccelAttacking = 15000.0
+	LookAngleStiffnessAttacking = 890.0
+	LookAngleDampingAttacking = 30.7
+End
+
+Template huNterAI
+	Skill = 89
+	Teamwork = 25
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 810.0
+	LookAngleDampingNormal = 29.3
+	LookAngleMaxAccelAttacking = 15000.0
+	LookAngleStiffnessAttacking = 890.0
+	LookAngleDampingAttacking = 30.7
+End
+
+Template electroNicAI
+	Skill = 89
+	Teamwork = 28
+	Aggression = 1
+	ReactionTime = 0.18
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.05
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.1
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 13000.0
+	LookAngleStiffnessNormal = 810.0
+	LookAngleDampingNormal = 29.3
+	LookAngleMaxAccelAttacking = 15000.0
+	LookAngleStiffnessAttacking = 890.0
+	LookAngleDampingAttacking = 30.7
+End
+
+Template Ax1LeAI
+	Skill = 90
+	Teamwork = 20
+	Aggression = 1
+	ReactionTime = 0.17
+	AttackDelay = 0
+	Difficulty = EXPERT
+	AimFocusInitial = 0.08
+	AimFocusDecay = 0.03
+	AimFocusOffsetScale = 0.15
+	AimfocusInterval = 0.006
+	LookAngleMaxAccelNormal = 16500.0
+	LookAngleStiffnessNormal = 910.0
+	LookAngleDampingNormal = 30.2
+	LookAngleMaxAccelAttacking = 20000.0
+	LookAngleStiffnessAttacking = 1070.0
+	LookAngleDampingAttacking = 32.8
+End
+
+//===========================================
+// WEAPON TEMPLATES
+//===========================================
+
+Template s1mpleWeapons
+	WeaponPreference = awp
+	WeaponPreference = ak47
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = tec9
+	WeaponPreference = deagle
+	WeaponPreference = smokegrenade
+	WeaponPreference = usp
+End
+
+Template ZywOoWeapons
+	WeaponPreference = awp
+	WeaponPreference = ak47
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = tec9
+	WeaponPreference = deagle
+	WeaponPreference = smokegrenade
+	WeaponPreference = usp
+End
+
+Template deviceWeapons
+	WeaponPreference = awp
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = deagle
+	WeaponPreference = smokegrenade
+	WeaponPreference = usp
+End
+
+Template m0NESYWeapons
+	WeaponPreference = awp
+	WeaponPreference = ak47
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = tec9
+	WeaponPreference = deagle
+	WeaponPreference = smokegrenade
+	WeaponPreference = usp
+End
+
+Template sh1roWeapons
+	WeaponPreference = awp
+	WeaponPreference = ak47
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = tec9
+	WeaponPreference = deagle
+	WeaponPreference = smokegrenade
+	WeaponPreference = usp
+End
+
+Template brokyWeapons
+	WeaponPreference = awp
+	WeaponPreference = ak47
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = tec9
+	WeaponPreference = deagle
+	WeaponPreference = smokegrenade
+	WeaponPreference = usp
+End
+
+Template torzsiWeapons
+	WeaponPreference = awp
+	WeaponPreference = ak47
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = tec9
+	WeaponPreference = deagle
+	WeaponPreference = smokegrenade
+	WeaponPreference = usp
+End
+
+Template NiKoWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+End
+
+Template donkWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+End
+
+Template YEKINDARWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+
+End
+
+Template rainWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = p250
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+
+End
+
+Template frozenWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = p250
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+
+End
+
+Template flameZWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = tec9
+	WeaponPreference = p250
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+End
+
+Template huNterWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = tec9
+	WeaponPreference = p250
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+End
+
+Template Ax1LeWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = tec9
+	WeaponPreference = p250
+	WeaponPreference = flashbang
+	WeaponPreference = usp
+End
+
+Template ropzWeapons
+	WeaponPreference = m4a4
+	WeaponPreference = ak47
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = hegrenade
+	WeaponPreference = usp
+End
+
+Template TwistzzWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = fiveseven
+	WeaponPreference = hegrenade
+	WeaponPreference = usp
+End
+
+Template b1tWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = usp
+End
+
+Template jLWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = hegrenade
+	WeaponPreference = usp
+End
+
+Template SpinxWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = usp
+End
+
+Template w0nderfulWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = usp
+End
+
+Template zont1xWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = usp
+End
+
+Template karriganWeapons
+	WeaponPreference = m4a4
+	WeaponPreference = ak47
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = hegrenade
+	WeaponPreference = usp
+End
+
+Template xertioNWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = usp
+End
+
+Template electroNicWeapons
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = tec9
+	WeaponPreference = fiveseven
+	WeaponPreference = usp
+End
+
+//===========================================
+// BOT DEFINITIONS - 25 PRO PLAYERS
+//===========================================
+
+s1mpleAI+s1mpleWeapons s1mple
+End
+
+ZywOoAI+ZywOoWeapons ZywOo
+End
+
+NiKoAI+NiKoWeapons NiKo
+End
+
+donkAI+donkWeapons donk
+End
+
+deviceAI+deviceWeapons device
+End
+
+m0NESYAI+m0NESYWeapons m0NESY
+End
+
+sh1roAI+sh1roWeapons sh1ro
+End
+
+ropzAI+ropzWeapons ropz
+End
+
+brokyAI+brokyWeapons broky
+End
+
+YEKINDARAI+YEKINDARWeapons YEKINDAR
+End
+
+TwistzzAI+TwistzzWeapons Twistzz
+End
+
+rainAI+rainWeapons rain
+End
+
+b1tAI+b1tWeapons b1t
+End
+
+jLAI+jLWeapons jL
+End
+
+frozenAI+frozenWeapons frozen
+End
+
+torzsiAI+torzsiWeapons torzsi
+End
+
+SpinxAI+SpinxWeapons Spinx
+End
+
+w0nderfulAI+w0nderfulWeapons w0nderful
+End
+
+zont1xAI+zont1xWeapons zont1x
+End
+
+karriganAI+karriganWeapons karrigan
+End
+
+flameZAI+flameZWeapons flameZ
+End
+
+xertioNAI+xertioNWeapons xertioN
+End
+
+huNterAI+huNterWeapons huNter-
+End
+
+electroNicAI+electroNicWeapons electroNic
+End
+
+Ax1LeAI+Ax1LeWeapons Ax1Le
+End
+
+
+//============================================================
+// Original CSS Bots — imported with difficulty shifted down one tier
+// Expert→Hard, Hard→Normal, Normal→Easy
+// So the pro-player bots above remain the sole EXPERT-level bots
+//============================================================
+
+// --- Original weapon preference templates ---
+
+Template Rifle
+	WeaponPreference = m4a4
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = ak47
+	WeaponPreference = famas
+	WeaponPreference = galilar
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+Template RifleT
+	WeaponPreference = ak47
+	WeaponPreference = m4a4
+	WeaponPreference = m4a1_silencer
+	WeaponPreference = galilar
+	WeaponPreference = famas
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+Template Punch
+	WeaponPreference = aug
+	WeaponPreference = sg556
+	WeaponPreference = famas
+	WeaponPreference = galilar
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+Template PunchT
+	WeaponPreference = sg556
+	WeaponPreference = aug
+	WeaponPreference = famas
+	WeaponPreference = galilar
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+Template Sniper
+	WeaponPreference = awp
+	WeaponPreference = scar20
+	WeaponPreference = g3sg1
+	WeaponPreference = ssg08
+	WeaponPreference = famas
+	WeaponPreference = galilar
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+Template Power
+	WeaponPreference = m249
+	WeaponPreference = xm1014
+	WeaponPreference = nova
+	WeaponPreference = famas
+	WeaponPreference = galilar
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+Template Shotgun
+	WeaponPreference = xm1014
+	WeaponPreference = nova
+	WeaponPreference = famas
+	WeaponPreference = galilar
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+Template Spray
+	WeaponPreference = p90
+	WeaponPreference = mp9
+	WeaponPreference = mac10
+	WeaponPreference = mp7
+	WeaponPreference = mp5sd
+End
+
+
+// --- Original skill templates (Difficulty shifted down one tier) ---
+
+Template Elite
+	Skill = 100
+	Aggression = 95
+	ReactionTime = 0.05
+	Cost = 4
+	Difficulty = HARD
+	VoicePitch = 85
+	AimFocusInitial = 0.5
+	AimFocusDecay = 0.1
+	AimFocusOffsetScale = 0.05
+	AimfocusInterval = 0.05
+End
+
+Template Expert
+	Skill = 90
+	Aggression = 80
+	ReactionTime = 0.20
+	Cost = 4
+	Difficulty = HARD
+	VoicePitch = 88
+	AimFocusInitial = 2
+	AimFocusDecay = 0.2
+	AimFocusOffsetScale = 0.15
+	AimfocusInterval = 0.20
+End
+
+Template VeryHard
+	Skill = 80
+	Aggression = 70
+	ReactionTime = 0.30
+	Cost = 3
+	Difficulty = NORMAL
+	VoicePitch = 92
+	AimFocusInitial = 5
+	AimFocusDecay = 0.3
+	AimFocusOffsetScale = 0.17
+	AimfocusInterval = 0.30
+End
+
+Template Hard
+	Skill = 75
+	Aggression = 60
+	ReactionTime = 0.40
+	Cost = 3
+	Difficulty = NORMAL
+	VoicePitch = 94
+	AimFocusInitial = 10
+	AimFocusDecay = 0.4
+	AimFocusOffsetScale = 0.20
+	AimfocusInterval = 0.40
+End
+
+Template Tough
+	Skill = 60
+	Aggression = 45
+	ReactionTime = 0.50
+	AttackDelay = .70
+	Cost = 2
+	Difficulty = NORMAL
+	VoicePitch = 96
+	AimFocusInitial = 10
+	AimFocusDecay = 0.4
+	AimFocusOffsetScale = 0.25
+	AimfocusInterval = 0.50
+End
+
+Template Normal
+	Skill = 50
+	Aggression = 30
+	ReactionTime = 0.60
+	AttackDelay = .80
+	Cost = 2
+	Difficulty = EASY
+	AimFocusInitial = 12
+	AimFocusDecay = 0.5
+	AimFocusOffsetScale = 0.35
+	AimfocusInterval = 0.60
+End
+
+Template Fair
+	Skill = 25
+	Aggression = 15
+	ReactionTime = 0.60
+	AttackDelay = .90
+	Cost = 1
+	Difficulty = EASY
+	VoicePitch = 105
+	AimFocusInitial = 17
+	AimFocusDecay = 0.6
+	AimFocusOffsetScale = 0.5
+	AimfocusInterval = 0.70
+End
+
+Template Easy
+	Skill = 5
+	Aggression = 10
+	ReactionTime = 0.60
+	AttackDelay = .70
+	Cost = 1
+	Difficulty = EASY
+	VoicePitch = 110
+	AimFocusInitial = 20
+	AimFocusDecay = 0.7
+	AimFocusOffsetScale = 0.6
+	AimfocusInterval = 0.70
+End
+
+
+// --- Individual bot profiles ---
+
+Elite+Rifle Cliffe
+	Skin = 1
+	VoicePitch = 95
+End
+
+Elite+Spray Minh
+	Skin = 2
+	VoicePitch = 105
+End
+
+Elite+Shotgun Crusher
+	Skin = 4
+	VoicePitch = 84
+End
+
+Elite+Punch Garret
+	Skin = 4
+	VoicePitch = 110
+End
+
+Elite+Power Rock
+	Skin = 2
+	VoicePitch = 80
+End
+
+Elite+PunchT Shark
+	Skin = 4
+	VoicePitch = 90
+End
+
+Elite+Rifle Wolf
+	Skin = 2
+	VoicePitch = 98
+End
+
+Elite+RifleT Gunner
+	Skin = 1
+	VoicePitch = 96
+End
+
+Elite+Sniper Vitaliy
+	Skin = 3
+	VoicePitch = 105
+End
+
+Elite+Punch Ridgway
+	Skin = 3
+	VoicePitch = 115
+End
+
+Elite+RifleT Steel
+	Skin = 1
+	VoicePitch = 84
+End
+
+Elite+PunchT Stone
+	Skin = 4
+	VoicePitch = 86
+End
+
+Expert+RifleT Arnold
+	VoicePitch = 85
+End
+
+Expert+Rifle Brett
+	VoicePitch = 100
+End
+
+Expert+Punch Kurt
+	VoicePitch = 95
+End
+
+Expert+Sniper Kyle
+	Cost = 5
+	VoicePitch = 115
+End
+
+Expert+Shotgun Moe
+	VoicePitch = 87
+End
+
+Expert+Rifle Quade
+	VoicePitch = 91
+End
+
+Expert+Rifle Quintin
+	VoicePitch = 101
+End
+
+Expert Ringo
+	VoicePitch = 112
+End
+
+Expert+PunchT Rip
+	VoicePitch = 99
+End
+
+Expert+Rifle Zach
+	VoicePitch = 100
+End
+
+VeryHard+Power Cory
+	Skin = 1
+	VoicePitch = 110
+End
+
+VeryHard+Sniper Quinn
+	Skin = 3
+	VoicePitch = 93
+End
+
+VeryHard+Rifle Seth
+	Skin = 2
+	VoicePitch = 100
+End
+
+VeryHard+RifleT Vinny
+	Skin = 4
+	VoicePitch = 86
+End
+
+Hard+Rifle Brian
+	Skin = 1
+	VoicePitch = 100
+End
+
+Hard+Rifle Chad
+	Skin = 1
+	VoicePitch = 95
+End
+
+Hard+RifleT Chet
+	Skin = 2
+	VoicePitch = 90
+End
+
+Hard+Spray Gabe
+	Skin = 4
+	VoicePitch = 102
+End
+
+Hard+Shotgun Hank
+	Skin = 1
+	VoicePitch = 98
+End
+
+Hard+RifleT Ivan
+	Skin = 2
+	VoicePitch = 96
+End
+
+Hard+Punch Jim
+	Skin = 4
+	VoicePitch = 103
+End
+
+Hard+PunchT Joe
+	Skin = 1
+	VoicePitch = 105
+End
+
+Hard+Rifle John
+	Skin = 2
+	VoicePitch = 97
+End
+
+Hard+Rifle Tony
+	Skin = 4
+	VoicePitch = 84
+End
+
+Hard+PunchT Tyler
+	Skin = 1
+	VoicePitch = 90
+End
+
+Hard+Rifle Victor
+	Skin = 2
+	VoicePitch = 98
+End
+
+Hard+Sniper Vladimir
+	Skin = 3
+	VoicePitch = 110
+End
+
+Hard+Spray Zane
+	Skin = 4
+	VoicePitch = 103
+End
+
+Hard+Rifle Zim
+	Skin = 2
+	VoicePitch = 110
+End
+
+Tough+Sniper Adrian
+	Skin = 3
+	VoicePitch = 120
+End
+
+Tough+Sniper Bank
+	Skin = 1
+	VoicePitch = 95
+End
+
+Tough+Rifle Brad
+	Skin = 1
+	VoicePitch = 100
+End
+
+Tough+Rifle Connor
+	Skin = 2
+	VoicePitch = 104
+End
+
+Tough+RifleT Dave
+	Skin = 4
+	VoicePitch = 98
+End
+
+Tough Dan
+	Skin = 1
+	VoicePitch = 100
+End
+
+Tough+Rifle Derek
+	Skin = 2
+	VoicePitch = 102
+End
+
+Tough+Shotgun Don
+	Skin = 4
+	VoicePitch = 95
+End
+
+Tough+Rifle Eric
+	Skin = 1
+	VoicePitch = 95
+End
+
+Tough+RifleT Erik
+	Skin = 2
+	VoicePitch = 110
+End
+
+Tough+Rifle Finn
+	Skin = 4
+	VoicePitch = 112
+End
+
+Tough Jeff
+	Skin = 1
+	VoicePitch = 90
+End
+
+Tough+Rifle Kevin
+	Skin = 2
+	VoicePitch = 115
+End
+
+Tough+RifleT Reed
+	Skin = 4
+	VoicePitch = 107
+End
+
+Tough+Rifle Rick
+	Skin = 2
+	VoicePitch = 102
+End
+
+Tough Ted
+	Skin = 1
+	VoicePitch = 98
+End
+
+Tough+Rifle Troy
+	Skin = 2
+	VoicePitch = 100
+End
+
+Tough+RifleT Wade
+	Skin = 4
+	VoicePitch = 95
+End
+
+Tough+Rifle Wayne
+	Skin = 1
+	VoicePitch = 86
+End
+
+Tough+RifleT Xander
+	Skin = 2
+	VoicePitch = 100
+End
+
+Tough+Rifle Xavier
+	Skin = 4
+	VoicePitch = 95
+End
+
+Normal+Rifle Adam
+	Skin = 1
+	VoicePitch = 105
+End
+
+Normal+PunchT Andy
+	Skin = 2
+	VoicePitch = 90
+End
+
+Normal Chris
+	Skin = 3
+	VoicePitch = 100
+End
+
+Normal Colin
+	Skin = 4
+	VoicePitch = 107
+End
+
+Normal+Rifle Dennis
+	Skin = 1
+	VoicePitch = 104
+End
+
+Normal Doug
+	Skin = 2
+	VoicePitch = 110
+End
+
+Normal+Sniper Duffy
+	Skin = 2
+	VoicePitch = 110
+End
+
+Normal Gary
+	Skin = 3
+	VoicePitch = 95
+End
+
+Normal Grant
+	Skin = 4
+	VoicePitch = 112
+End
+
+Normal Greg
+	Skin = 1
+	VoicePitch = 111
+End
+
+Normal+Sniper Ian
+	Skin = 3
+	VoicePitch = 115
+End
+
+Normal Jerry
+	Skin = 4
+	VoicePitch = 112
+End
+
+Normal Jon
+	Skin = 1
+	VoicePitch = 96
+End
+
+Normal Keith
+	Skin = 2
+	VoicePitch = 98
+End
+
+Normal Mark
+	Skin = 4
+	VoicePitch = 110
+End
+
+Normal Matt
+	Skin = 1
+	VoicePitch = 95
+End
+
+Normal+RifleT Mike
+	Skin = 2
+	VoicePitch = 100
+End
+
+Normal Nate
+	Skin = 4
+	VoicePitch = 99
+End
+
+Normal Paul
+	Skin = 3
+	VoicePitch = 98
+End
+
+Normal Scott
+	Skin = 1
+	VoicePitch = 105
+End
+
+Normal Steve
+	Skin = 2
+	VoicePitch = 115
+End
+
+Normal Tom
+	Skin = 3
+	VoicePitch = 110
+End
+
+Normal Yahn
+	Skin = 4
+	VoicePitch = 92
+End
+
+Fair Alfred
+	VoicePitch = 110
+End
+
+Fair Bill
+	VoicePitch = 100
+End
+
+Fair Brandon
+	VoicePitch = 99
+End
+
+Fair+Spray Calvin
+	VoicePitch = 120
+End
+
+Fair Dean
+	VoicePitch = 111
+End
+
+Fair Dustin
+	VoicePitch = 98
+End
+
+Fair Ethan
+	VoicePitch = 112
+End
+
+Fair Harold
+	VoicePitch = 90
+End
+
+Fair Henry
+	VoicePitch = 120
+End
+
+Fair Irving
+	VoicePitch = 118
+End
+
+Fair Jason
+	VoicePitch = 116
+End
+
+Fair+Spray Jenssen
+	VoicePitch = 112
+End
+
+Fair Josh
+	VoicePitch = 114
+End
+
+Fair Martin
+	VoicePitch = 110
+End
+
+Fair Nick
+	VoicePitch = 98
+End
+
+Fair Norm
+	VoicePitch = 92
+End
+
+Fair Orin
+	VoicePitch = 113
+End
+
+Fair Pat
+	VoicePitch = 114
+End
+
+Fair Perry
+	VoicePitch = 115
+End
+
+Fair Ron
+	VoicePitch = 100
+End
+
+Fair Shawn
+	VoicePitch = 102
+End
+
+Fair Tim
+	VoicePitch = 98
+End
+
+Fair Will
+	VoicePitch = 96
+End
+
+Fair Wyatt
+	VoicePitch = 94
+End
+
+Easy Albert
+	VoicePitch = 100
+End
+
+Easy Allen
+	VoicePitch = 110
+End
+
+Easy Bert
+	VoicePitch = 120
+End
+
+Easy Bob
+	VoicePitch = 99
+End
+
+Easy Cecil
+	VoicePitch = 120
+End
+
+Easy Clarence
+	VoicePitch = 125
+End
+
+Easy Elliot
+	VoicePitch = 110
+End
+
+Easy Elmer
+	VoicePitch = 100
+End
+
+Easy Ernie
+	VoicePitch = 112
+End
+
+Easy Eugene
+	VoicePitch = 121
+End
+
+Easy Fergus
+	VoicePitch = 99
+End
+
+Easy Ferris
+	VoicePitch = 119
+End
+
+Easy Frank
+	VoicePitch = 118
+End
+
+Easy Frasier
+	VoicePitch = 117
+End
+
+Easy Fred
+	VoicePitch = 116
+End
+
+Easy George
+	VoicePitch = 115
+End
+
+Easy Graham
+	VoicePitch = 114
+End
+
+Easy Harvey
+	VoicePitch = 112
+End
+
+Easy Irwin
+	VoicePitch = 111
+End
+
+Easy Larry
+	VoicePitch = 105
+End
+
+Easy Lester
+	VoicePitch = 110
+End
+
+Easy Marvin
+	VoicePitch = 109
+End
+
+Easy Neil
+	VoicePitch = 108
+End
+
+Easy Niles
+	VoicePitch = 122
+End
+
+Easy Oliver
+	VoicePitch = 120
+End
+
+Easy Opie
+	VoicePitch = 125
+End
+
+Easy Ryan
+	VoicePitch = 95
+End
+
+Easy Toby
+	VoicePitch = 92
+End
+
+Easy Ulric
+	VoicePitch = 100
+End
+
+Easy Ulysses
+	VoicePitch = 102
+End
+
+Easy Uri
+	VoicePitch = 104
+End
+
+Easy Waldo
+	VoicePitch = 108
+End
+
+Easy Wally
+	VoicePitch = 95
+End
+
+Easy Walt
+	VoicePitch = 100
+End
+
+Easy Wesley
+	VoicePitch = 120
+End
+
+Easy Yanni
+	VoicePitch = 112
+End
+
+Easy Yogi
+	VoicePitch = 99
+End
+
+Easy Yuri
+	VoicePitch = 110
+End
+
